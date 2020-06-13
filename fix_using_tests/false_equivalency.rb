@@ -9,13 +9,10 @@ def prompt_user
   puts "1.) Eat a hamburger."
   puts "2.) Eat a ham."
 end
-require "pry"
 def selection(num)
-  if num = 1
-    binding.pry
+  if num == 1
      "YUM YUM MUNCH MUNCH MUNCH"
-  elsif num = 2
-  binding.pry
+  elsif num == 2
      "HAM HAM HAM IN MY TUMMY"
   end
 end
