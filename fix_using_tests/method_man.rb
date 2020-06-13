@@ -6,4 +6,5 @@ end
 
 def play_game(player2)
   greeting = "#{player1} is better than #{player2}"
+  return greeting
 end
